@@ -10,6 +10,18 @@ body {
     color: #404040;
 }
 
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+}
+
 /* TYPOGRAPHY */
 
 h1 {
@@ -30,7 +42,6 @@ h1 + p {
 h2 {
     font-size: 1.3125rem;
     margin: 0;
-    font-weight: 900;
 }
 
 h2 + p {
@@ -45,12 +56,12 @@ h2 + p {
     order: -1;
     color: #F18119;
     font-weight: 900;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .bottom-text {
     font-size: 0.625rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 1;
 }
 
 .bold {
@@ -75,15 +86,31 @@ h2 + p {
 
 .register {
     min-height: 50vh;
-    padding: 2em;
+    padding: 2em 1em;
 }
 
 /* REGISTARTION FORM */
 
-.registration__form {
+.registration-form {
     display: flex;
     flex-direction: column;
 }
+
+input, button {
+    font-family: inherit;
+    text-align: inherit;
+    font-size: inherit;
+    margin-bottom: 1em;
+    padding: 1em 2.5em;
+    border-radius: 10px;
+    border: 1px solid #404040;
+}
+
+btn {
+    cursor: pointer;
+
+}
+
 
 /* MEIDA QUERIES */
 
@@ -100,7 +127,7 @@ h2 + p {
         font-size: 3.5rem;
     }
 
-    h2 {
+    h2, h1 + p {
         font-size: 1.75rem;
     }
 
@@ -115,5 +142,9 @@ h2 + p {
         display:flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .container-intro {
+        height: 100%;
     }
 }
