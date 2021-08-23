@@ -57,6 +57,11 @@ h2 + p {
     color: #F18119;
     font-weight: 900;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    border-top: 5px solid #F18119;
+    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
+    margin-top: 0;
+    padding-top: 0.25em;
 }
 
 .bottom-text {
@@ -80,6 +85,7 @@ h2 + p {
     background-position: center;
     background-size: cover;
     padding: 0 0.5em 2em;
+    background-blend-mode: multiply;
 }
 
 /* REGISTER SECTION */
