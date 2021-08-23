@@ -7,4 +7,5 @@ This is a layout of a mock BBQ party registration page. It was made using the mo
 ## Screenshot of Layout
 
 This can also be viewed on <a src="https://renko7.github.io/bbq_splash_page/">GitHub Pages</a>
-<img src="./img/bbq.PNG" alt="BBQ page screenshot" />
+<img src="./layout-design/desktop-layout.PNG" alt="desktop layout" />
+<img src="./layout-design/mobile-layout.PNG" alt="mobile layout" />
